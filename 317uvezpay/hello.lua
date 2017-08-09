@@ -31,4 +31,4 @@ local template = [[
 </html>
 ]]
 
-return template, view
+return json.parse(template), json.parse(view)
