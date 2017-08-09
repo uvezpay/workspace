@@ -30,6 +30,3 @@ local template = [[
 </body>
 </html>
 ]]
-
-return lustache:render(template, view),
-	{['Content-Type']='text/html; charset=utf-8'}
