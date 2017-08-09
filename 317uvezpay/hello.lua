@@ -30,3 +30,5 @@ local template = [[
 </body>
 </html>
 ]]
+
+return template, view
