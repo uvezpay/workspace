@@ -1,5 +1,3 @@
-local lustache = require 'lustache'
-
 local view = {
 	title = "Open Source Hello or Goodbye",
 	msg = storage.msg,
@@ -33,5 +31,4 @@ local template = [[
 </html>
 ]]
 
-return lustache:render(template, view),
-	{['Content-Type']='text/html; charset=utf-8'}
+return {template = template, view = view }
