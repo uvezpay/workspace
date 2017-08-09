@@ -1,1 +1,1 @@
-return "hello salil, i hope this really works, sorry to be bugging you all day log. ppg till the cows come home and we stem cells that grow into delicious steaks and cows never need to be slaughtered ever again. amen. btw i miss oregon!"
+return "<h1>Helo, World, STAUFMAN GALAZY!!</h1>", {["Content-Type"]="text/html"}
