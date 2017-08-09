@@ -1,3 +1,5 @@
+local lustache = require 'lustache'
+
 local view = {
 	title = "Open Source Hello or Goodbye",
 	msg = storage.msg,
@@ -7,7 +9,7 @@ local view = {
 		link = 'http://yummyindiankitchen.com/wp-content/uploads/2016/11/masur-ki-dal-massor-daal.jpg',
 		title = 'Daal'}, {
 		link = 'www.yahoo.com',
-		title = 'YAHOO1'
+		title = 'YAHOO'
 	}}
 }
 
@@ -31,4 +33,5 @@ local template = [[
 </html>
 ]]
 
-return template, view
+return lustache:render(template, view),
+	{['Content-Type']='text/html; charset=utf-8'}
