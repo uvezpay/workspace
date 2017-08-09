@@ -7,7 +7,7 @@ local view = {
 		link = 'http://yummyindiankitchen.com/wp-content/uploads/2016/11/masur-ki-dal-massor-daal.jpg',
 		title = 'Daal'}, {
 		link = 'www.yahoo.com',
-		title = 'YAHOO'
+		title = 'YAHOO1'
 	}}
 }
 
