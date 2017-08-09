@@ -1,1 +1,1 @@
-return "<h1>Helo, World, STAUFMAN GALAZY!! GREAT SCOT</h1>", {["Content-Type"]="text/html"}
+return "<h1>Helo, World, STAUFMAN GALAZY!! GREAT BOT</h1>", {["Content-Type"]="text/html"}
